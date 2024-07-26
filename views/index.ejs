@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myStyle.css">
+    <title>Document</title>
+  
+</head>
+<body dir="rtl">
+
+ <%- include('./components/navbar.ejs') %>
+
+    <center>
+        <div class="abc2">
+            <h2>صفحة تحكم مبسطة للموقع الرئيسي</h2>
+        </div>
+    
+   <center>
+
+    <br>
+
+    <h2>روابط مباشرة للصفحات</h2>
+    <a href="http://localhost:3000/table">table</a><a href="http://localhost:3000/Home">home</a>
+
+    <form dir="rtl" class="abc" action="/" method="post"> 
+    <h1>اضافة العنوان</h1>
+    <br>
+    <input id="subject" type="text" placeholder="عنوان الموضوع" name="subject">
+    <br>
+    <h1>اضافة محتوى الموضوع</h1>
+    <br>
+    <textarea name="allSubject" placeholder="اكتب هنا... "></textarea>
+    <br>
+    <button>ارسال</button>
+    </form>
+
+   </center>
+
+
+  
+</body>
+</html>
+
+
+ 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body dir="rtl" > 
+
+    <%- include('./components/navbar.ejs') %>
+
+
+    <center>
+        <div class="home1">
+            
+            <h1>الموضوع   : <mark>   <%= qaboos.at(-1).subject  %> </mark>  </h1>
+            <br>
+            <div class="home2">
+              <p> <%= qaboos.at(-1).allSubject %> </p> 
+            </div>
+        </div>
+    </center>
+ 
+<%      
+for(index=0; index < qaboos.lengh; index++){
+   
+   
+}
+%>
+
+<%=  console.log(qaboos[index].subject) 
+
+
+%>
+
+
+
+
+    
+
+
+  
+ 
+    
+   
+    
+  
+
+ 
+    
+</body>
+</html>
